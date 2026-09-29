@@ -1,0 +1,1 @@
+pip install openai-whisper torch torchvision torchaudio pandas joblib sentence-transformers chromadb groq python-dotenv moviepy
