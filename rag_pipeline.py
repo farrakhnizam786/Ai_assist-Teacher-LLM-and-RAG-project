@@ -50,7 +50,7 @@ def store_chunks_in_chroma(json_path, db_path="vector_db"):
         embeddings.append(emb)
         metadatas.append({"start": float(start), "end": float(end)})
 
-    print("[INFO] Chunks aur embeddings ChromaDB mein store kiye ja rahe hain...")
+    print("[INFO] Chunks and embeddings are storing in ChromaDB ...")
     collection.add(
         ids=ids,
         documents=documents,

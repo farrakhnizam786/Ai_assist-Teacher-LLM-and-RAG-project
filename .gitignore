@@ -1,0 +1,12 @@
+# Private API Keys & Secrets (SABSE IMPORTANT)
+.env
+
+# Virtual Environment & Python Cache
+.venv/
+__pycache__/
+*.pyc
+
+# Local Data & Database Folders (Heavy Files)
+input_videos/
+output_data/
+vector_db/
